@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Describiling The Meta Data Of My HTML File -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- This Is My Title -->
+    <title>Table</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Merges adjacent cell borders into single lines */
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;              /* Adds space inside the cells */
+            text-align: left;          /* Left-aligns header and cell text */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Highlights header background */
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Table</h3>
+
+    <table>
+        <caption>Team Directory</caption> <!-- Optional Title -->
+    
+        <thead>
+            <tr>
+                <th>Employee</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <td>Charlie</td>
+                <td>Engineering</td>
+            </tr>
+
+            <tr>
+                <td>Diana</td>
+                <td>Marketing</td>
+            </tr>
+        </tbody>
+    
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Members: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
